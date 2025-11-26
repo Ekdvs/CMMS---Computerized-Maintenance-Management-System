@@ -14,7 +14,7 @@ const assetSchema=new mongoose.Schema(
         },
         location:{
             type:String,
-            
+            required:true,
         },
         serialNumber:{
             type:String,
