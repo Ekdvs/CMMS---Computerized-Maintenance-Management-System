@@ -26,9 +26,17 @@ const AttachmentSchema=new mongoose.Schema(
         fileName:{
             type:String,
         },
-        contentType:{
-            type:String,
-        }
+        publicId: {
+            type: String,
+            required: true,
+        },
+        contentType: {
+            type: String,
+            required: true,
+        },
+        size: {
+            type: Number,
+        },
     }
 )
 
