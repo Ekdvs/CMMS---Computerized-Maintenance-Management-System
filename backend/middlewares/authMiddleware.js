@@ -1,6 +1,6 @@
 
 
-const auth = async(request, response ,next)=>{
+export const auth = async(request, response ,next)=>{
     try {
         //get token from header
         const token = request.headers.authorization.split(" ")[1];

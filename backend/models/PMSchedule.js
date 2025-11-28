@@ -61,3 +61,7 @@ const PMScheduleSchema=new mongoose.Schema(
         timestamps: true,
     }
 )
+
+const PMSchedule=mongoose.model('PMSchedule',PMScheduleSchema);
+
+export default PMSchedule;
